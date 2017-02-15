@@ -4,7 +4,6 @@ import java.lang.*;
 
 public class LocalAlign {
 
-	// Gap penalties defined as negative values because addition is easier to work with in the algorithm
 	static int d = -10;
 	static int e = -5;
 	// BLOSUM50 matrix
@@ -69,7 +68,7 @@ public class LocalAlign {
 	public static void main(String[] args) {
 		if (args.length != 4) {
 			System.out.println("Usage: java GlobalAlign QueryFile FastaFile GapOpeningPenalty GapExtensionPenalty.");
-			System.out.println("Gap penalties should be input as positive integers.");
+			System.out.println("Gap penalties should be input as negative integers.");
 			System.exit(-1);
 		}
 

@@ -69,7 +69,7 @@ public class GlobalAlign {
 	public static void main(String[] args) {
 		if (args.length != 4) {
 			System.out.println("Usage: java GlobalAlign QueryFile FastaFile GapOpeningPenalty GapExtensionPenalty.");
-			System.out.println("Gap penalties should be input as positive integers.");
+			System.out.println("Gap penalties should be input as negative integers.");
 			System.exit(-1);
 		}
 
