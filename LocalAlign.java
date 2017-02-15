@@ -77,6 +77,8 @@ public class LocalAlign {
 		String reference = "";
 		String temp = "";
 		ArrayList<FastaSeq> fastas = new ArrayList<FastaSeq>();
+		d = Integer.parseInt(args[2]);
+		e = Integer.parseInt(args[3]);
 
 		// Load input files
 		File referenceFile = new File(args[0]);
