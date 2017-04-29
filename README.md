@@ -9,10 +9,10 @@ Algorithms that are implemented include the Needleman & Wunsch global alignment 
 All implementations use the BLOSUM62 matrix by default.
 
 # Instructions
-If we would like to compile the local alignment algorithm, use the following command:
+For example, to compile the local alignment algorithm, use the following command:
 `javac LocalAlign.java`
 
-To execute the program, use the following command and follow the printed instructions:
+To then execute the program, use the following command and follow the printed instructions:
 `java LocalAlign`
 
 # Notes
